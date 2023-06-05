@@ -6,29 +6,16 @@ Está pensado para ejecutarse paso por paso, dado que algunas celdas son opciona
 El código abarca los siguientes aspectos de la explotación de un archivo con esta tipología:
 - Evaluación de la calidad de los datos, basado en parte en un Análisis Exploratorio de los Datos
 - Limpieza de los datos
-- Transformación de variables y creación de nuevas variables. En este apartado se encuentra el código que ejecuta un etiquetado mediante enfoque zero-shot que hace uso del modelo del lenguaje Roberta, basado en transformers.
+- Transformación de variables y creación de nuevas variables. En este apartado se encuentra el código que ejecuta un etiquetado mediante enfoque zero-shot que hace uso del modelo del lenguaje XLM-RoBERTa, basado en transformers.
 - Descriptiva básica
 - Visualización de los datos mediante gráfico de burbujas
 
 Las librerias que se necesitarán son:
 Librarias nativas en python:
-os
-re
-shutil
+os, re, shutil
 
 Librerias externas (requieren instalación a no ser que ya vengan instaladas en Google Colab):
-pandas
-numpy
-matplotlib
-ydata-profiling[notebook]==4.1.0
-langdetect
-transformers
-sweetviz
-tensorflow
-torch
-google.colab
-drive
-sentencepiece
+pandas, numpy, matplotlib, ydata-profiling[notebook]==4.1.0, langdetect, transformers, sweetviz, tensorflow, torch, google.colab, drive, sentencepiece
 
 ENGLISH:
 This is the code created by three students (Jorge Galán, Germán Pérez, and Camila Valles) from the course "Human Behavior and Interaction with Artificial Intelligence", an introductory subject to Artificial Intelligence, part of the Data Science and Artificial Intelligence degree at Alfonso X el Sabio University.
@@ -38,27 +25,14 @@ It is designed to be run step by step, since some cells are optional or merely d
 The code covers the following aspects of handling a file of this type:
 
 Data quality assessment, partly based on an Exploratory Data Analysis
-Data cleaning
-Variable transformation and new variable creation. In this section, there is code that performs labeling using a zero-shot approach that makes use of the Roberta language model, based on transformers.
-Basic descriptive
-Data visualization using bubble charts
+- Data cleaning
+- Variable transformation and new variable creation. In this section, there is code that performs labeling using a zero-shot approach that makes use of the XLM-RoBERTa language model, based on transformers.
+- Basic descriptive
+- Data visualization using bubble charts
 
 Built-in Python Libraries:
-os
-re
-shutil
+os, re, shutil
 
 External Libraries (require installation unless already installed on Google Colab):
-pandas
-numpy
-matplotlib
-ydata-profiling[notebook]==4.1.0
-langdetect
-transformers
-sweetviz
-tensorflow
-torch
-google.colab
-drive
-sentencepiece
+pandas, numpy, matplotlib, ydata-profiling[notebook]==4.1.0, langdetect, transformers, sweetviz, tensorflow, torch, google.colab, drive, sentencepiece
 
